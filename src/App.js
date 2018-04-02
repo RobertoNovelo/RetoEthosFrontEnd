@@ -59,6 +59,11 @@ class App extends Component {
     }
     console.log(data);
   }
+  componentDidMount() {
+    console.log(
+      'El teléfono debe tener el código del país para recibir el SMS de confirmación (+52 para MX) :D!'
+    );
+  }
   render() {
     Analytics.record('appRender');
     return (
