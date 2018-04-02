@@ -65,10 +65,18 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+          <h1 className="App-title">
+            Mientras como ciudadano realizas una auditoría a un contrato, la
+            página se mantiene "mineando una cripto moneda".
+          </h1>
         </header>
         <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+          El valor de dicha moneda se valúa conforme al impacto de remover la
+          corrupción y se otorgará al ciudadano siempre y cuando alimente al
+          sistema, es decir, no solo se otorga por mantener una ventana abierta
+          en su explorador. Mientras más puntos o experiencia tenga el usuario,
+          mayor será la cantidad y complejidad de auditoriías disponibles. Se
+          plantea un sistema como duolinguo o codecademy.
         </p>
       </div>
     );
